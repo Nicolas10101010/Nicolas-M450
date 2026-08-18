@@ -6,4 +6,4 @@ Aufgaben:
 2. Nennen Sie ein Beispiel eines SW-Fehlers und eines SW-Mangels. Nennen Sie ein Beispiel für einen hohen Schaden bei einem SW-Fehler.
 - Ein Fehler kann sein, dass ein Button nicht so funktioniert wie er sollte, ein Mangel kann z.B. wenig Sicherheit bedeuten oder nicht alle Funktionalitäten die in dem Projekt nöig sind. Ein sehr schlimmer SW-Fehler kann sein, dass der Login-Button nicht funktioniert und somit der User aus dem System ausgeschlossen ist.
 
-3. 
+3. Code => calculate.cs
