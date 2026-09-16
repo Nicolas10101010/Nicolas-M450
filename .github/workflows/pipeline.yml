@@ -27,6 +27,7 @@ jobs:
 
       - name: Tests ausführen
         run: mvn test
+        working-directory: 06_ci_cd_pipeline/recipe-planner-fronend-and-backend/recipe-planner-backend
 
       - name: Reports hochladen
         if: always()
