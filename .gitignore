@@ -1,0 +1,67 @@
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+.cache/
+dist/
+build/
+coverage/
+.nyc_output/
+
+# --- Test-Tools (Playwright/Cypress/Jest) ---
+test-results/
+playwright-report/
+playwright/.cache/
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# --- Java / Maven ---
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+replay_pid*
+.mvn/wrapper/maven-wrapper.jar
+
+# --- Gradle (falls verwendet) ---
+.gradle/
+!gradle-wrapper.jar
+
+# --- IDEs ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+.factorypath
+*.sublime-workspace
+
+# --- Umgebungsvariablen / Secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Betriebssystem ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# --- Temporäres ---
+*.tmp
+*.bak
+*.orig
